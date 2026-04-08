@@ -471,7 +471,7 @@ export default function Home() {
 
             {/* Know Us */}
             <div>
-              <h4 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">Know Us</h4>
+              <h4 className="text-xs font-bold text-[#8b2e2e] uppercase tracking-widest mb-3">Know Us</h4>
               <ul className="space-y-1 text-sm text-gray-600">
                 <li>Contact Us</li>
                 <li>Blog</li>
@@ -480,7 +480,7 @@ export default function Home() {
 
             {/* Need Help */}
             <div>
-              <h4 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">Need Help</h4>
+              <h4 className="text-xs font-bold text-[#8b2e2e] uppercase tracking-widest mb-3">Need Help</h4>
               <ul className="space-y-1 text-sm text-gray-600">
                 <li>Cancellation And Refund</li>
                 <li>Privacy Policy</li>
@@ -489,7 +489,7 @@ export default function Home() {
 
             {/* More Info 1 */}
             <div>
-              <h4 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">More Info</h4>
+              <h4 className="text-xs font-bold text-[#8b2e2e] uppercase tracking-widest mb-3">More Info</h4>
               <ul className="space-y-1 text-sm text-gray-600">
                 <li>Terms And Gificy</li>
                 <li>Customs Greinrame</li>
@@ -498,7 +498,7 @@ export default function Home() {
 
             {/* More Info 2 */}
             <div>
-              <h4 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">More Info</h4>
+              <h4 className="text-xs font-bold text-[#8b2e2e] uppercase tracking-widest mb-3">More Info</h4>
               <ul className="space-y-1 text-sm text-gray-600">
                 <li>Coupons & Offers</li>
                 <li>Download App</li>
