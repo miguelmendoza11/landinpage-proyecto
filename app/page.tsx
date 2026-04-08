@@ -445,7 +445,86 @@ export default function Home() {
               </div>
             </div>
           </section>
+
+          {/* Banner FSSAI */}
+          <div className="bg-[#8b2e2e] rounded-2xl px-8 py-6 mb-0">
+            <p className="text-white text-center text-xl font-bold">
+              Dakingo – Your Trusted FSSAI Certified Online Bakery for Every Celebration
+            </p>
+          </div>
         </div>
+
+        {/* Footer */}
+        <footer className="bg-white px-8 md:px-12 py-10">
+          <div className="grid grid-cols-2 md:grid-cols-6 gap-8 mb-10">
+            {/* Brand */}
+            <div className="col-span-2 md:col-span-1">
+              <h3 className="text-2xl font-black text-[#8b2e2e] mb-3">Dakingo</h3>
+              <ul className="space-y-1 text-sm text-gray-600">
+                <li>Our Story</li>
+                <li>Contact Us</li>
+                <li>Loyalra Molas</li>
+                <li>Woalla</li>
+                <li>Conenp</li>
+              </ul>
+            </div>
+
+            {/* Know Us */}
+            <div>
+              <h4 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">Know Us</h4>
+              <ul className="space-y-1 text-sm text-gray-600">
+                <li>Contact Us</li>
+                <li>Blog</li>
+              </ul>
+            </div>
+
+            {/* Need Help */}
+            <div>
+              <h4 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">Need Help</h4>
+              <ul className="space-y-1 text-sm text-gray-600">
+                <li>Cancellation And Refund</li>
+                <li>Privacy Policy</li>
+              </ul>
+            </div>
+
+            {/* More Info 1 */}
+            <div>
+              <h4 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">More Info</h4>
+              <ul className="space-y-1 text-sm text-gray-600">
+                <li>Terms And Gificy</li>
+                <li>Customs Greinrame</li>
+              </ul>
+            </div>
+
+            {/* More Info 2 */}
+            <div>
+              <h4 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">More Info</h4>
+              <ul className="space-y-1 text-sm text-gray-600">
+                <li>Coupons & Offers</li>
+                <li>Download App</li>
+              </ul>
+            </div>
+
+          </div>
+
+          {/* Subscribe + Help row */}
+          <div className="flex items-center justify-end gap-3 mt-4">
+            <input
+              type="email"
+              placeholder="Enter Email Address"
+              className="border border-gray-300 rounded-full px-4 py-2 text-sm outline-none focus:border-[#8b2e2e] w-56"
+            />
+            <button className="bg-[#8b2e2e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#6b1e1e] transition-colors whitespace-nowrap">
+              SUBSCRIBE
+            </button>
+            <button className="flex items-center gap-2 bg-[#fceeed] border border-[#8b2e2e] text-[#8b2e2e] px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#f5d5d5] transition-colors">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+              </svg>
+              Hey, need any help?
+            </button>
+          </div>
+        </footer>
       </div>
     </div>
   );
