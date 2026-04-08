@@ -34,8 +34,8 @@ export default function Home() {
             <div className="absolute top-1/3 right-8 w-9 h-9 bg-white/8 rounded-full border border-white/15"></div>
           </div>
 
-          <div className="relative container mx-auto px-8 py-16 lg:py-20">
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+          <div className="relative container mx-auto px-4 md:px-8 py-10 lg:py-20">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
               {/* Left side - Large cake image */}
               <div className="flex justify-center lg:justify-start">
                 <div className="relative">
@@ -76,7 +76,7 @@ export default function Home() {
               </div>
 
               {/* Right side - Small cake images stacked vertically */}
-              <div className="flex flex-col gap-4 items-center">
+              <div className="hidden lg:flex flex-col gap-4 items-center">
                 <div className="w-44 h-44 md:w-52 md:h-52 rounded-full bg-white p-2 shadow-xl">
                   <div className="w-full h-full rounded-full overflow-hidden">
                     <img
@@ -104,9 +104,9 @@ export default function Home() {
         <div className="bg-[#fdf8f4] rounded-t-[3rem] -mt-12 relative z-10 px-6 md:px-12 py-12">
           {/* Menu Section */}
           <section className="mb-16">
-            <div className="flex items-start justify-start gap-6">
+            <div className="flex flex-col md:flex-row items-start justify-start gap-6">
               {/* Left Side - Menu Title and Icons */}
-              <div className="flex-shrink-0">
+              <div className="flex-shrink-0 w-full md:w-auto">
                 <h2 className="text-4xl md:text-5xl font-bold text-[#8b2e2e] mb-2">Menu</h2>
                 <p className="text-lg text-[#8b2e2e] mb-6">What will you wish for?</p>
                 
@@ -131,8 +131,8 @@ export default function Home() {
               </div>
 
               {/* Right Side - Category Cards */}
-              <div className="ml-auto grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:shadow-lg transition-shadow w-36">
+              <div className="w-full md:ml-auto grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="bg-white rounded-2xl p-4 md:p-6 text-center shadow-md hover:shadow-lg transition-shadow">
                   <div className="w-16 h-16 mx-auto mb-3 bg-[#8b2e2e] rounded-full flex items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -144,7 +144,7 @@ export default function Home() {
                   <h3 className="text-sm font-bold text-[#8b2e2e] uppercase">Classic</h3>
                 </div>
                 
-                <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:shadow-lg transition-shadow w-36">
+                <div className="bg-white rounded-2xl p-4 md:p-6 text-center shadow-md hover:shadow-lg transition-shadow">
                   <div className="w-16 h-16 mx-auto mb-3 bg-[#8b2e2e] rounded-full flex items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -156,7 +156,7 @@ export default function Home() {
                   <h3 className="text-sm font-bold text-[#8b2e2e] uppercase">Gourmet</h3>
                 </div>
                 
-                <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:shadow-lg transition-shadow w-36">
+                <div className="bg-white rounded-2xl p-4 md:p-6 text-center shadow-md hover:shadow-lg transition-shadow">
                   <div className="w-16 h-16 mx-auto mb-3 bg-[#8b2e2e] rounded-full flex items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -170,7 +170,7 @@ export default function Home() {
                   <h3 className="text-sm font-bold text-[#8b2e2e] uppercase">Desserts</h3>
                 </div>
                 
-                <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:shadow-lg transition-shadow w-36">
+                <div className="bg-white rounded-2xl p-4 md:p-6 text-center shadow-md hover:shadow-lg transition-shadow">
                   <div className="w-16 h-16 mx-auto mb-3 bg-[#8b2e2e] rounded-full flex items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -325,13 +325,13 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {/* Left Column - Promise Features */}
               <div className="space-y-6">
-                <div className="bg-[#fceeed] rounded-2xl p-8 pb-50">
+                <div className="bg-[#fceeed] rounded-2xl p-6 md:p-8 pb-10 md:pb-50">
                   <p className="text-[#8b2e2e] font-medium text-center mb-8 text-2xl">A glimpse roa secret spell - only hacial world!</p>
 
-                  <div className="flex justify-center gap-6 mb-8 mt-40">
+                  <div className="grid grid-cols-2 md:flex md:justify-center gap-4 md:gap-6 mb-8 mt-6 md:mt-40">
                     <div className="text-center">
-                      <div className="w-32 h-32 mx-auto mb-3 border-2 border-[#8b2e2e] rounded-full flex items-center justify-center">
-                        <svg className="w-16 h-16 text-[#8b2e2e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <div className="w-20 h-20 md:w-32 md:h-32 mx-auto mb-3 border-2 border-[#8b2e2e] rounded-full flex items-center justify-center">
+                        <svg className="w-10 h-10 md:w-16 md:h-16 text-[#8b2e2e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                       </div>
@@ -339,8 +339,8 @@ export default function Home() {
                     </div>
 
                     <div className="text-center">
-                      <div className="w-32 h-32 mx-auto mb-3 border-2 border-[#8b2e2e] rounded-full flex items-center justify-center">
-                        <svg className="w-16 h-16 text-[#8b2e2e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <div className="w-20 h-20 md:w-32 md:h-32 mx-auto mb-3 border-2 border-[#8b2e2e] rounded-full flex items-center justify-center">
+                        <svg className="w-10 h-10 md:w-16 md:h-16 text-[#8b2e2e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                         </svg>
                       </div>
@@ -348,8 +348,8 @@ export default function Home() {
                     </div>
 
                     <div className="text-center">
-                      <div className="w-32 h-32 mx-auto mb-3 border-2 border-[#8b2e2e] rounded-full flex items-center justify-center">
-                        <svg className="w-16 h-16 text-[#8b2e2e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <div className="w-20 h-20 md:w-32 md:h-32 mx-auto mb-3 border-2 border-[#8b2e2e] rounded-full flex items-center justify-center">
+                        <svg className="w-10 h-10 md:w-16 md:h-16 text-[#8b2e2e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                         </svg>
                       </div>
@@ -357,8 +357,8 @@ export default function Home() {
                     </div>
 
                     <div className="text-center">
-                      <div className="w-32 h-32 mx-auto mb-3 border-2 border-[#8b2e2e] rounded-full flex items-center justify-center">
-                        <svg className="w-16 h-16 text-[#8b2e2e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <div className="w-20 h-20 md:w-32 md:h-32 mx-auto mb-3 border-2 border-[#8b2e2e] rounded-full flex items-center justify-center">
+                        <svg className="w-10 h-10 md:w-16 md:h-16 text-[#8b2e2e]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
                         </svg>
                       </div>
@@ -368,7 +368,7 @@ export default function Home() {
                 </div>
 
                 {/* Magical Ticket */}
-                <div className="bg-[#fceeed] rounded-2xl p-8 py-40 flex items-center gap-4">
+                <div className="bg-[#fceeed] rounded-2xl p-6 md:p-8 py-8 md:py-40 flex items-center gap-4">
                   <div className="flex-shrink-0">
                     <img
                       src="/ticket.jpeg"
@@ -386,7 +386,7 @@ export default function Home() {
                 </div>
 
                 {/* Social Proof */}
-                <div className="bg-[#fceeed] rounded-2xl p-6 py-15 flex items-center gap-4">
+                <div className="bg-[#fceeed] rounded-2xl p-6 py-6 md:py-15 flex items-center gap-4">
                   <div className="flex -space-x-2">
                     <img src="/maluma.jpg" alt="maluma" className="w-10 h-10 rounded-full border-2 border-white object-cover" />
                     <img src="/james.jpg" alt="james" className="w-10 h-10 rounded-full border-2 border-white object-cover" />
@@ -455,8 +455,8 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <footer className="bg-white px-8 md:px-12 py-10">
-          <div className="grid grid-cols-2 md:grid-cols-6 gap-8 mb-10">
+        <footer className="bg-white px-4 md:px-12 py-10">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 mb-10">
             {/* Brand */}
             <div className="col-span-2 md:col-span-1">
               <h3 className="text-2xl font-black text-[#8b2e2e] mb-3">Dakingo</h3>
@@ -508,11 +508,11 @@ export default function Home() {
           </div>
 
           {/* Subscribe + Help row */}
-          <div className="flex items-center justify-end gap-3 mt-4">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-end gap-3 mt-4">
             <input
               type="email"
               placeholder="Enter Email Address"
-              className="border border-gray-300 rounded-full px-4 py-2 text-sm outline-none focus:border-[#8b2e2e] w-56"
+              className="border border-gray-300 rounded-full px-4 py-2 text-sm outline-none focus:border-[#8b2e2e] w-full sm:w-56"
             />
             <button className="bg-[#8b2e2e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#6b1e1e] transition-colors whitespace-nowrap">
               SUBSCRIBE
