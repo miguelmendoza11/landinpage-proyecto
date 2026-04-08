@@ -199,7 +199,7 @@ export default function Home() {
                   <img 
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/torta%201-SfN9w0oYZzF2cEeKzJsfPrNNm9dQnP.jpg"
                     alt="Rich Chocolate Truffle Cake"
-                    className="w-full h-48 object-cover rounded-xl"
+                    className="w-full h-50 object-cover rounded-xl"
                   />
                   <button className="absolute top-3 left-3 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-md">
                     <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
@@ -228,7 +228,7 @@ export default function Home() {
                   <img 
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/torta%202-7wyNH3bnGkz9Odr83vFqweaCZDYzbA.jpg"
                     alt="Choco Chip Truffle Cake"
-                    className="w-full h-48 object-cover rounded-xl"
+                    className="w-full h-50 object-cover rounded-xl"
                   />
                   <button className="absolute top-3 left-3 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-md">
                     <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
@@ -257,7 +257,7 @@ export default function Home() {
                   <img 
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/torta%203-w3a1sE2sq1YlVCBLDQk236qFH4GGw0.jpg"
                     alt="Tropical Fruit N Almond Cake"
-                    className="w-full h-48 object-cover rounded-xl"
+                    className="w-full h-50 object-cover rounded-xl"
                   />
                   <button className="absolute top-3 left-3 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-md">
                     <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
@@ -286,7 +286,7 @@ export default function Home() {
                   <img 
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/torta%204-zO56HNB5UxyHKYRh2c1o0xm3JWOf8l.jpg"
                     alt="Rich Butterscotch Crunch Cake"
-                    className="w-full h-48 object-cover rounded-xl"
+                    className="w-full h-50 object-cover rounded-xl"
                   />
                   <button className="absolute top-3 left-3 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-md">
                     <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
